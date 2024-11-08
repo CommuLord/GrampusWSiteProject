@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вырвиглазный сайт</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff00ff, #00ffff); /* Градиентный фон */
+            color: #00ffff; /* Ярко-синий текст */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Нестандартный шрифт */
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background: linear-gradient(45deg, #00ff00, #ff0000); /* Градиентный заголовок */
+            padding: 20px;
+            border-bottom: 5px solid #ff0000; /* Красная граница */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(45deg, #0000ff, #ff00ff); /* Градиентный фон для навигации */
+            padding: 10px;
+        }
+        nav a {
+            color: #ffff00; /* Желтый текст для ссылок */
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .box {
+            background: linear-gradient(45deg, #ffa500, #ff00ff); /* Градиентный фон для блока */
+            padding: 20px;
+            margin: 20px;
+            border: 5px solid #00ffff; /* Синяя граница */
+            border-radius: 15px; /* Скругленные углы */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+        }
+        .box h2 {
+            color: #ff00ff; /* Розовый цвет для заголовков */
+            text-shadow: 2px 2px 5px #000000; /* Тень для текста */
+        }
+        .box p {
+            color: #0000ff; /* Синий цвет для текста */
+            text-shadow: 1px 1px 3px #000000; /* Тень для текста */
+        }
+        .footer {
+            background: linear-gradient(45deg, #000000, #ff0000); /* Градиентный фон для подвала */
+            color: #ffffff; /* Белый текст */
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .animation {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0% { color: #ff0000; }
+            50% { color: #00ff00; }
+            100% { color: #0000ff; }
+        }
+        .blur {
+            filter: blur(5px); /* Размытие */
+        }
+        .glow {
+            text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00; /* Свечение */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="glow">Вырвиглазный сайт</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+        <a href="#">Блог</a>
+        <a href="#">Галерея</a>
+    </nav>
+    <div class="content">
+        <div class="box">
+            <h2 class="animation">Приветствие</h2>
+            <p>Добро пожаловать на наш вырвиглазный сайт! Здесь вы найдете много ярких и нестандартных элементов.</p>
+        </div>
+        <div class="box">
+            <h2 class="animation">Новости</h2>
+            <p>Последние новости из мира технологий и интернета.</p>
+            <p>1. Новая версия браузера вышла! Теперь он работает быстрее и стабильнее.</p>
+            <p>2. Обновление операционной системы: новые функции и улучшенная безопасность.</p>
+            <p>3. Социальные сети вводят новые функции для пользователей.</p>
+        </div>
+        <div class="box">
+            <h2 class="animation">О нас</h2>
+            <p>Мы команда энтузиастов, которые любят создавать яркие и запоминающиеся сайты.</p>
+            <p>Наша миссия — сделать интернет более красочным и интересным.</p>
+            <p>Свяжитесь с нами, если у вас есть идеи или предложения!</p>
+        </div>
+        <div class="box">
+            <h2 class="animation">Контакты</h2>
+            <p>Email: info@example.com</p>
+            <p>Телефон: +123 456 7890</p>
+            <p>Адрес: 1234 Улица, Город, Страна</p>
+        </div>
+        <div class="box">
+            <h2 class="animation">Блог</h2>
+            <p>Читайте наши статьи о веб-дизайне, технологиях и интернете.</p>
+            <p>1. Как создать вырвиглазный сайт: советы и рекомендации.</p>
+            <p>2. Тренды веб-дизайна 2010 года: что популярно сейчас.</p>
+            <p>3. Как выбрать правильный шрифт для вашего сайта.</p>
+        </div>
+        <div class="box">
+            <h2 class="animation">Галерея</h2>
+            <p>Посмотрите наши работы и проекты.</p>
+            <p>1. Сайт для компании XYZ.</p>
+            <p>2. Лендинг для продукта ABC.</p>
+            <p>3. Блог о путешествиях.</p>
+        </div>
+        <div class="box blur">
+            <h2 class="animation">Размытый текст</h2>
+            <p>Этот текст размыт для создания эффекта блюра.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2010 Вырвиглазный сайт. Все права защищены.</p>
+    </div>
+</body>
+</html>
