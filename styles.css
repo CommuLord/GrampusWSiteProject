@@ -526,3 +526,13 @@ li {
 .left-image-desc-skimmer {
     margin-right: 30px;
 }
+
+.title-slider-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-slider-title {
+    display: flex;
+    justify-content: space-between;
+}
