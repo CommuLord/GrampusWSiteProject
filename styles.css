@@ -10,7 +10,8 @@
     font-style: normal;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -196,7 +197,7 @@ body, html {
     position: absolute;
     top: 50%;
     display: flex;
-    z-index: 10; 
+    z-index: 10;
     color: white;
 }
 
@@ -212,7 +213,7 @@ body, html {
     width: 38%;
     border-radius: 0 30px 0 30px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    padding: 10px 10px;
+    padding: 20px 20px;
     margin-top: 40px;
 }
 
@@ -241,7 +242,7 @@ body, html {
 }
 
 .desc-right-text {
- color: #556063;
+    color: #556063;
 }
 
 .desc-left-text {
@@ -412,8 +413,7 @@ body, html {
 
 
 .swipe-button-second,
-.swipe-button-third
- {
+.swipe-button-third {
     background-color: #F2F6F6;
     color: #556063;
     border: #D4D4D4 2px solid;
@@ -448,7 +448,7 @@ li {
     font-family: 'Aquawax Pro', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color:#556063;
+    color: #556063;
 }
 
 .message-div {
@@ -496,7 +496,8 @@ li {
 
 .title-desc-text-bold {
     color: #0C191F;
-    margin: 20px 0 20px 0;
+    margin: 0;
+    font-weight: 800;
 }
 
 
@@ -514,13 +515,19 @@ li {
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
 }
 
+.custom-image-1 {
+    width: 570px;
+    height: auto;
+
+}
+
 .skimmer-block {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .left-image-desc-skimmer {
@@ -535,4 +542,404 @@ li {
 .buttons-slider-title {
     display: flex;
     justify-content: space-between;
+}
+
+.buttons-slider-title img {
+    height: 34px;
+    width: auto;
+}
+
+.buttons-another-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-another-title img {
+    height: 34px;
+    width: auto;
+}
+
+.margin-arrow {
+
+    margin-right: 20px;
+}
+
+.buy-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zach-text {
+    text-decoration: line-through;
+    color: #556063;
+    margin: 0;
+}
+
+.buy-count {
+    color: #1B282E;
+    margin: 0;
+}
+
+.just-button {
+    background-color: #57ADE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    border-radius: 0 30px 0 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px 10px;
+}
+
+.just-button:hover {
+    background-color: #3B91C8;
+}
+
+.banner {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/slider.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    color: white;
+}
+
+.text-column p {
+    margin-bottom: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.not-black-color {
+    color: #0C191F;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 350px;
+    height: 100%;
+}
+
+.card-block img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-text p {
+    margin-bottom: 0;
+}
+
+.card-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.price-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.current-price {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.another-button {
+    background-color: #57ADE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 30px 0 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 20px 20px;
+}
+
+.another-button:hover {
+    background-color: #3B91C8;
+}
+
+.card-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+}
+
+.padding-bottom {
+    padding-bottom: 60px;
+}
+
+.examples-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.another-up-text-image-disc-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: transparent;
+    border-bottom: 1px dotted #556063;
+    margin: 0 10px;
+}
+
+.gray-color {
+    color: #556063;
+}
+
+.examples-down-div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.examples-down-div button {
+    width: 40%;
+}
+
+.examples-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-f-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-price {
+    border-radius: 0 30px 0 30px;
+    padding: 40px 40px;
+    background-color: #E9EDED;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.quest-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-div {
+    color: #556063;
+}
+
+.quest-div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #E9EDED;
+    border-radius: 0 30px 0 30px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+}
+
+.small-button {
+    background-color: #57ADE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 30px 0 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 20px 40px;
+}
+
+.small-button:hover {
+    background-color: #3B91C8;
+}
+
+.etapi-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.etapi-2-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5199FF;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0 30px 0 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 60px 60px;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card p {
+    margin: 10px 0;
+}
+.card .inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card .inputs input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+.map-block {
+    position: relative;
+    width: 100%;
+}
+
+.map-container {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+
+.map-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-contacts {
+    position: absolute;
+    top: 55px;
+    left: 375px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0 30px 0 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 470px;
+}
+
+.card-contacts button {
+    margin-top: 30px;
+}
+
+.adress-div, .phone-div, .mail-div {
+    display: flex;
+}
+
+.footer {
+    background-color: #0C191F;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrap p {
+    color: #455054;
+}
+
+.grampus {
+    display: flex;
+    justify-content: center;
+}
+
+.grampus-img {
+    padding-left: 10px;
+}
+
+.num-block-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.img-bottom-container {
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+}
+
+.img-bottom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
